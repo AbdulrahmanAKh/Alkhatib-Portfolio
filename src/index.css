@@ -3,9 +3,32 @@
 @tailwind utilities;
 
 @layer base {
-  html { color-scheme: dark; scroll-padding-top: env(safe-area-inset-top, 0px); }
-  body { @apply min-h-screen bg-bg font-sans leading-7 text-zinc-100; padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px); }
-  :focus-visible { @apply rounded-md outline outline-2 outline-offset-4 outline-accent; }
-  dialog::backdrop { background: #000000b0; }
+  html {
+    color-scheme: dark;
+    scroll-padding-top: env(safe-area-inset-top, 0px);
+  }
+
+  body {
+    @apply min-h-screen bg-bg font-sans leading-7 text-zinc-100;
+    padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px);
+    background-image: radial-gradient(circle at 80% 5%, rgba(95, 207, 220, 0.06), transparent 40%),
+      radial-gradient(circle at 10% 90%, rgba(95, 207, 220, 0.03), transparent 35%);
+    background-attachment: fixed;
+  }
+
+  :focus-visible {
+    @apply rounded-md outline outline-2 outline-offset-4 outline-accent;
+  }
+
+  dialog::backdrop {
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(6px);
+  }
 }
-@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

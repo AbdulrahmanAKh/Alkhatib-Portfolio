@@ -4,7 +4,7 @@ import gradProjectImg from './assets/projects thumbnials/graduation_project.jpg'
 // Edit everything about you here.
 export const PROFILE = {
   name: 'Abdulrahman Alkhatib', initials: 'AA', avatar: profileImg, role: 'Fresh Graduate - CS', status: 'Open to work',
-  email: 'aboodkhatib90@gmail.com', location: 'Jeddah, Saudi Arabia',
+  email: 'aboodkhatib90@gmail.com', phone: '+966 56 750 3648', location: 'Jeddah, Saudi Arabia',
   links: [{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/abdulrahman-alkhatib/' }, { label: 'GitHub', href: '#' }],
   resume: '#',
   about: [
@@ -30,6 +30,6 @@ export const CERTS = [
   { title: 'Certificate Three', issuer: 'Your University', date: 'Jan 2026', url: '#' },
 ]
 
-export const EDUCATION = [{ title: 'B.Sc. Computer Science', org: 'Your University', when: '2022 — 2026', desc: 'Relevant courses: Data Structures, Algorithms, Databases, Data Mining.' }]
-export const EXPERIENCE = [{ title: 'IT Support Trainee', org: 'Mattex Group', when: 'May 2026 — Aug 2026', desc: 'Support IT infrastructure including hardware, software, and network connectivity for end-users.' }, { title: 'API Developer Intern.', org: 'iSolutions', when: 'June 2026 — Aug 2026', desc: 'Develop RESTful APIs using Python and FastAPI, ensuring secure data exchange between frontend and backend systems.' }]
+export const EDUCATION = [{ title: 'B.Sc. Computer Science', org: 'Islamic University of Madinah', when: '2022 — 2026', desc: 'Relevant courses: Data Structures, Algorithms, Databases, Data Mining.' }]
+export const EXPERIENCE = [{ title: 'IT Support Trainee', org: 'Mattex Group', when: 'May 2026 — Aug 2026', desc: 'Support IT infrastructure including hardware, software, and network connectivity for end-users.' }, { title: 'API Developer Intern', org: 'iSolutions', when: 'June 2026 — Aug 2026', desc: 'Develop RESTful APIs using Python and FastAPI, ensuring secure data exchange between frontend and backend systems.' }]
 export const SKILLS = { Languages: ['Python', 'Java', 'JavaScript', 'SQL'], 'Tools & web': ['Git', 'HTML & CSS', 'Linux'], Concepts: ['Data structures', 'Machine learning basics'] }
